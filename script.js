@@ -1,5 +1,5 @@
 //main container created in html file
-const container = document.querySelector("container");
+const container = document.querySelector("#container");
 
 //div creation for 16 x 16 grid
 const gridOne = document.createElement("div");
