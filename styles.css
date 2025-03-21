@@ -1,11 +1,21 @@
+body {
+    display: flex;
+    /* Horizontally center child elements */
+    justify-content: center; 
+    /* Vertically center child elements */
+    align-items: center; 
+    margin: 0;
+}
+
 #container {
     
-    border: solid black;
+    /* border: 3px solid black; */
     display: flex;
     flex-wrap: wrap;
     position: relative;
     height: 960px;
     width: 960px;
+
    
     
 }
