@@ -1,7 +1,20 @@
 #container {
+    
     border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 256.5px;
+    width: 256.5px;
+   
+    
 }
 
 #container > div {
     border: solid red;
+    height: 10px;
+    width: 10px;
+    margin: 0px;
+    padding: 0px;
+    
+    
 }
